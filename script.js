@@ -103,43 +103,6 @@
 
       window.addEventListener('scroll', handleScroll);
 
-      // Form submission with validation
-      document.querySelector('form').addEventListener('submit', function(e) {
-          e.preventDefault();
-          
-          // Get form fields
-          const name = this.querySelector('input[type="text"]').value.trim();
-          const email = this.querySelector('input[type="email"]').value.trim();
-          const subject = this.querySelector('input[placeholder="Subject"]').value.trim();
-          const message = this.querySelector('textarea').value.trim();
-          
-          // Basic validation
-          if (!name || !email || !subject || !message) {
-              alert('Please fill in all fields.');
-              return;
-          }
-          
-          // Email validation
-          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-          if (!emailRegex.test(email)) {
-              alert('Please enter a valid email address.');
-              return;
-          }
-          
-          // Show loading state
-          const submitBtn = this.querySelector('button[type="submit"]');
-          const originalText = submitBtn.innerHTML;
-          submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Sending...';
-          submitBtn.disabled = true;
-          
-          // Simulate form submission (replace with actual form handling)
-          setTimeout(() => {
-              alert('Thank you for your message! I\'ll get back to you soon.');
-              this.reset();
-              submitBtn.innerHTML = originalText;
-              submitBtn.disabled = false;
-          }, 1500);
-      });
 
       // Add intersection observer for animations
       const observerOptions = {
