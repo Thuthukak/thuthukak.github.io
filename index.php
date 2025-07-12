@@ -67,8 +67,10 @@
                         <h1 class="hero-title">Thuthuka khoza</h1>
                         <p class="hero-subtitle">Software Developer</p>
                         <p class="hero-description">
-                            Hi, I'm Thuthuka Khoza, a passionate software developer specializing in modern web technologies. 
-                            I create innovative solutions that combine elegant design with robust functionality.
+                            I'm Thuthuka Khoza, a Full Stack Developer focused on building scalable, 
+                            high-performance web applications. With expertise in PHP, JavaScript, C#, 
+                            Laravel, ASP.NET, and Vue.js, I craft modern solutions that enhance user experience
+                             and business efficiency.
                         </p>
                         <div class="d-flex gap-3 flex-wrap justify-content-center">
                             <a href="#projects" class="btn btn-primary">
@@ -78,7 +80,7 @@
                                 <i class="fab fa-linkedin me-2"></i>LinkedIn
                             </a>
                             <a href="tel:+27 73 811 4652" class="btn btn-outline-light rounded">
-                                <i class="fab fa-whatsapp me-2"></i>WhatsApp
+                                <i class="fas fa-phone me-2"></i>Call
                             </a>
                             <a href="assets/Thuthuka_Khoza_CV.pdf" class="btn btn-outline-light rounded">
                                 <i class="fas fa-file-pdf me-2"></i>Resume
@@ -208,7 +210,7 @@
                         <h3 class="skill-title">Frontend Development</h3>
                         <ul class="skill-list">
                             <li>HTML5, CSS3, JavaScript (ES6+)</li>
-                            <li>React, Vue.js, Angular</li>
+                            <li>React, Vue.js, Nuxt.js</li>
                             <li>TypeScript, SASS/SCSS</li>
                             <li>Responsive Design, PWA</li>
                             <li>Webpack, Vite, npm/yarn</li>
@@ -223,7 +225,7 @@
                         <h3 class="skill-title">Backend Development</h3>
                         <ul class="skill-list">
                             <li>Node.js, Express.js</li>
-                            <li>Python, Django, Flask</li>
+                            <li>Laravel, PHP, Python, Django</li>
                             <li>RESTful APIs, GraphQL</li>
                             <li>Authentication & Authorization</li>
                             <li>Microservices Architecture</li>
@@ -249,55 +251,140 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your Name" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" class="form-control" placeholder="Your Email" required>
-                                </div>
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon fa fa-briefcase"></div>
+                        <h3 class="job-title">Jr Fullstack Developer <span class="current-badge">Current</span></h3>
+                        <div class="company-info">Innovation Lifecycle Systems</div>
+                        <div class="job-location">Midrand, South Africa</div>
+                        <div class="job-duration">October 2023 — Present</div>
+                        
+                        <div class="performance-highlight">
+                            <div class="performance-stat">Key Achievement: 20% performance improvement</div>
+                            <p>Successfully upgraded production Laravel application from v8 to v11 and migrated Vue 2 to Vue 3</p>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-content">
+                        <div class="job-description">
+                            <p>Full-stack developer working on critical system modernization projects and maintaining enterprise-level applications. Collaborating with senior developers and agile teams to deliver scalable solutions that enhance business productivity.</p>
+                        </div>
+
+                        <ul class="achievement-list">
+                            <li class="achievement-item">Collaborated on critical system modernization by upgrading a production Laravel application (v8→v11) and migrating Vue 2 to Vue 3, delivering 20% performance improvement and enhanced maintainability for long-term scalability</li>
+                            <li class="achievement-item">Maintained existing systems and applications as tier 2 support, handling break-fix issues and data changes efficiently</li>
+                            <li class="achievement-item">Architected and developed responsive web applications using Vue.js, JavaScript, HTML5, and CSS3, creating seamless user experiences across multiple platforms and devices</li>
+                            <li class="achievement-item">Engineered automated reporting solutions leveraging data analysis and PHPWord integration, eliminating manual processes and improving operational efficiency</li>
+                            <li class="achievement-item">Designed secure RESTful API architecture to facilitate robust data exchange between frontend and backend services, implementing best practices for data integrity and security protocols</li>
+                            <li class="achievement-item">Built and maintained a comprehensive component library of 300+ reusable Vue.js components, accelerating development cycles and establishing consistent UI/UX standards across applications</li>
+                            <li class="achievement-item">Optimized application performance and cross-browser compatibility, ensuring reliable functionality across diverse browser environments and improving user retention</li>
+                        </ul>
+
+                        <div class="tech-stack">
+                            <div class="tech-stack-title">Technologies & Tools:</div>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">RESTful APIs</span>
+                                <span class="tech-tag">PHPWord</span>
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">Agile</span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Subject" required>
-                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="fas fa-paper-plane me-2"></i>Send Message
-                                </button>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-icon fa-solid fa-graduation-cap"></div>
+                        <div class="education-level">Postgraduate</div>
+                        <h3 class="education-title">Postgraduate Diploma: ICT in Applications Development</h3>
+                        <div class="education-institution">University of Mpumalanga</div>
+                        <div class="education-location">Mbombela</div>
+                        <div class="education-date">January 2023 — December 2024</div>
+                        <div class="education-description">
+                            Advanced coursework in software development, focusing on modern enterprise technologies.
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon fa-solid fa-graduation-cap"></div>
+                        <div class="education-level">Advanced Diploma</div>
+                        <h3 class="education-title">Advanced Diploma: ICT in Applications Development</h3>
+                        <div class="education-institution">University of Mpumalanga</div>
+                        <div class="education-location">Mbombela</div>
+                        <div class="education-date">January 2022 — December 2022</div>
+                        <div class="education-description">
+                            In-depth knowledge of full-stack development, data structures, and security best practices.
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon fa-solid fa-graduation-cap"></div>
+                        <div class="education-level">Diploma</div>
+                        <h3 class="education-title">Diploma in ICT</h3>
+                        <div class="education-institution">University of Mpumalanga</div>
+                        <div class="education-location">Mbombela</div>
+                        <div class="education-date">January 2019 — December 2021</div>
+                        <div class="education-description">
+                            Strong foundation in programming, databases, and system architecture.
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon fa-solid fa-graduation-cap"></div>
+                        <div class="education-level">Secondary</div>
+                        <h3 class="education-title">Matric (Grade 12)</h3>
+                        <div class="education-institution">Supero Combined School</div>
+                        <div class="education-location">Kempton Park</div>
+                        <div class="education-date">November 2017</div>
+                        <div class="education-description">
+                            Successfully completed secondary education with strong academic performance.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="social-links">
-                <a href="#" class="social-link">
+                <a href="https://github.com/Thuthukak" class="social-link">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="social-link">
+                <a href="https://www.linkedin.com/in/thuthuka-khoza-976729177/" class="social-link">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="#" class="social-link">
-                    <i class="fab fa-twitter"></i>
+                <a href="mailto:thuthukakhoza@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
                 </a>
-                <a href="#" class="social-link">
-                    <i class="fab fa-instagram"></i>
+                <a href="tel:+27 73 811 4652" class="social-link">
+                    <i class="fas fa-phone"></i>
                 </a>
             </div>
             <div class="text-center">
-                <p>&copy; 2024 Thuthuka Khoza. All rights reserved.</p>
+                <p class="copyright">&copy; <span id="currentYear"></span> Thuthuka Khoza. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -307,5 +394,6 @@
     
     <!-- Custom JavaScript -->
     <script src="script.js"></script>
+    <script> document.getElementById('currentYear').textContent = new Date().getFullYear(); </script>
 </body>
 </html>

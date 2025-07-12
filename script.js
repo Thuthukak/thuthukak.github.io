@@ -232,6 +232,8 @@
           }
       });
 
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
       // Performance optimization: Preload critical images
       function preloadImages() {
           const images = [
